@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9faa829d90a923bedae84cef774ad6a8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9faa829d90a923bedae84cef774ad6a8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9faa829d90a923bedae84cef774ad6a8 = L.map(
+                "map_9faa829d90a923bedae84cef774ad6a8",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d0825742bc318cf1047ef6d718a31437 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d0825742bc318cf1047ef6d718a31437.addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+            var circle_marker_83b26459b6d8a58659c301e7c059a3d9 = L.circleMarker(
+                [36.7783, -119.4179],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35.120000000000005, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_35d37830b7dd3f59acaa0be963a2b9a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c6b124f2c5322dc0e483f3cd87d13f1 = $(`<div id="html_0c6b124f2c5322dc0e483f3cd87d13f1" style="width: 100.0%; height: 100.0%;">CA: 2512 accidents</div>`)[0];
+                popup_35d37830b7dd3f59acaa0be963a2b9a3.setContent(html_0c6b124f2c5322dc0e483f3cd87d13f1);
+            
+        
+
+        circle_marker_83b26459b6d8a58659c301e7c059a3d9.bindPopup(popup_35d37830b7dd3f59acaa0be963a2b9a3)
+        ;
+
+        
+    
+    
+            circle_marker_83b26459b6d8a58659c301e7c059a3d9.bindTooltip(
+                `<div>
+                     Accidents: 2512
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c6855d8abe6a9a20ed851fbbc9804f31 = L.circleMarker(
+                [27.9947, -81.7603],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.25, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_ac374f0076702f5f2df0792608992ae6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebaa5ee423917478c6286e4548855246 = $(`<div id="html_ebaa5ee423917478c6286e4548855246" style="width: 100.0%; height: 100.0%;">FL: 1425 accidents</div>`)[0];
+                popup_ac374f0076702f5f2df0792608992ae6.setContent(html_ebaa5ee423917478c6286e4548855246);
+            
+        
+
+        circle_marker_c6855d8abe6a9a20ed851fbbc9804f31.bindPopup(popup_ac374f0076702f5f2df0792608992ae6)
+        ;
+
+        
+    
+    
+            circle_marker_c6855d8abe6a9a20ed851fbbc9804f31.bindTooltip(
+                `<div>
+                     Accidents: 1425
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_95381f6505b1c0ade5171779bbc19477 = L.circleMarker(
+                [37.4316, -78.6569],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.15, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_fb83a7c4eb5821da52b58d8ac280a700 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_580787ad7fa48d4900459f01a75073c1 = $(`<div id="html_580787ad7fa48d4900459f01a75073c1" style="width: 100.0%; height: 100.0%;">VA: 515 accidents</div>`)[0];
+                popup_fb83a7c4eb5821da52b58d8ac280a700.setContent(html_580787ad7fa48d4900459f01a75073c1);
+            
+        
+
+        circle_marker_95381f6505b1c0ade5171779bbc19477.bindPopup(popup_fb83a7c4eb5821da52b58d8ac280a700)
+        ;
+
+        
+    
+    
+            circle_marker_95381f6505b1c0ade5171779bbc19477.bindTooltip(
+                `<div>
+                     Accidents: 515
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3ad70621687bbfde1260b11cf66072d6 = L.circleMarker(
+                [31.9686, -99.9018],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.780000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_dcbfef898d02854c82715cd0591fc6fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29245b237ff65e2cdf991b0cc47a9cd3 = $(`<div id="html_29245b237ff65e2cdf991b0cc47a9cd3" style="width: 100.0%; height: 100.0%;">TX: 478 accidents</div>`)[0];
+                popup_dcbfef898d02854c82715cd0591fc6fc.setContent(html_29245b237ff65e2cdf991b0cc47a9cd3);
+            
+        
+
+        circle_marker_3ad70621687bbfde1260b11cf66072d6.bindPopup(popup_dcbfef898d02854c82715cd0591fc6fc)
+        ;
+
+        
+    
+    
+            circle_marker_3ad70621687bbfde1260b11cf66072d6.bindTooltip(
+                `<div>
+                     Accidents: 478
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_03c5d955ff8fb53530cd15df66d005e3 = L.circleMarker(
+                [40.7128, -74.006],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.73, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_1851905db4bd4cc11f79f2c3a558466c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_339656f90e79901c9335f844048d2935 = $(`<div id="html_339656f90e79901c9335f844048d2935" style="width: 100.0%; height: 100.0%;">NY: 473 accidents</div>`)[0];
+                popup_1851905db4bd4cc11f79f2c3a558466c.setContent(html_339656f90e79901c9335f844048d2935);
+            
+        
+
+        circle_marker_03c5d955ff8fb53530cd15df66d005e3.bindPopup(popup_1851905db4bd4cc11f79f2c3a558466c)
+        ;
+
+        
+    
+    
+            circle_marker_03c5d955ff8fb53530cd15df66d005e3.bindTooltip(
+                `<div>
+                     Accidents: 473
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3adf3afa64f987ef57016f45a977b056 = L.circleMarker(
+                [41.2033, -77.1945],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.29, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_bcda99b2077f5f128e2bdbf6c37ffcc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44dbcc4ce561350cc70c8f95b41240ed = $(`<div id="html_44dbcc4ce561350cc70c8f95b41240ed" style="width: 100.0%; height: 100.0%;">PA: 429 accidents</div>`)[0];
+                popup_bcda99b2077f5f128e2bdbf6c37ffcc5.setContent(html_44dbcc4ce561350cc70c8f95b41240ed);
+            
+        
+
+        circle_marker_3adf3afa64f987ef57016f45a977b056.bindPopup(popup_bcda99b2077f5f128e2bdbf6c37ffcc5)
+        ;
+
+        
+    
+    
+            circle_marker_3adf3afa64f987ef57016f45a977b056.bindTooltip(
+                `<div>
+                     Accidents: 429
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0c4b435a727dc5639d6e5066ebe088de = L.circleMarker(
+                [35.7596, -79.0193],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.08, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_e0440c3ead271a19dd09cc7410c51a47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2a484cf63b64dd9b9911a57c5a682e5 = $(`<div id="html_c2a484cf63b64dd9b9911a57c5a682e5" style="width: 100.0%; height: 100.0%;">NC: 408 accidents</div>`)[0];
+                popup_e0440c3ead271a19dd09cc7410c51a47.setContent(html_c2a484cf63b64dd9b9911a57c5a682e5);
+            
+        
+
+        circle_marker_0c4b435a727dc5639d6e5066ebe088de.bindPopup(popup_e0440c3ead271a19dd09cc7410c51a47)
+        ;
+
+        
+    
+    
+            circle_marker_0c4b435a727dc5639d6e5066ebe088de.bindTooltip(
+                `<div>
+                     Accidents: 408
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dc18d4402ce4da2ed4c3679980550372 = L.circleMarker(
+                [33.8361, -81.1637],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.64, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_b34f20a68935ed026c83d3ff0595a5c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8ee891b30daf842156a7d0d923e3cc5 = $(`<div id="html_b8ee891b30daf842156a7d0d923e3cc5" style="width: 100.0%; height: 100.0%;">SC: 364 accidents</div>`)[0];
+                popup_b34f20a68935ed026c83d3ff0595a5c0.setContent(html_b8ee891b30daf842156a7d0d923e3cc5);
+            
+        
+
+        circle_marker_dc18d4402ce4da2ed4c3679980550372.bindPopup(popup_b34f20a68935ed026c83d3ff0595a5c0)
+        ;
+
+        
+    
+    
+            circle_marker_dc18d4402ce4da2ed4c3679980550372.bindTooltip(
+                `<div>
+                     Accidents: 364
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9899da2f8123fd4ff7a823b32737096b = L.circleMarker(
+                [43.8041, -120.5542],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.59, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_ab020468d637097e691ec1424d970b55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54cd319ee919c77bd2d983dc8b4ba174 = $(`<div id="html_54cd319ee919c77bd2d983dc8b4ba174" style="width: 100.0%; height: 100.0%;">OR: 359 accidents</div>`)[0];
+                popup_ab020468d637097e691ec1424d970b55.setContent(html_54cd319ee919c77bd2d983dc8b4ba174);
+            
+        
+
+        circle_marker_9899da2f8123fd4ff7a823b32737096b.bindPopup(popup_ab020468d637097e691ec1424d970b55)
+        ;
+
+        
+    
+    
+            circle_marker_9899da2f8123fd4ff7a823b32737096b.bindTooltip(
+                `<div>
+                     Accidents: 359
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e7239521d0f4ad639b7d56733d8df009 = L.circleMarker(
+                [46.7296, -94.6859],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.26, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_90162560a3bc74788e55731f3eb0176f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f42552b816a41e3ed164ac4985cf416 = $(`<div id="html_0f42552b816a41e3ed164ac4985cf416" style="width: 100.0%; height: 100.0%;">MN: 326 accidents</div>`)[0];
+                popup_90162560a3bc74788e55731f3eb0176f.setContent(html_0f42552b816a41e3ed164ac4985cf416);
+            
+        
+
+        circle_marker_e7239521d0f4ad639b7d56733d8df009.bindPopup(popup_90162560a3bc74788e55731f3eb0176f)
+        ;
+
+        
+    
+    
+            circle_marker_e7239521d0f4ad639b7d56733d8df009.bindTooltip(
+                `<div>
+                     Accidents: 326
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4285956797ac1857c98f16ea7af1d876 = L.circleMarker(
+                [34.0489, -111.0937],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.39, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_cbc06095dd4edbba78055522b47be6c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61a7187852c1b4215b772ed57847381a = $(`<div id="html_61a7187852c1b4215b772ed57847381a" style="width: 100.0%; height: 100.0%;">AZ: 239 accidents</div>`)[0];
+                popup_cbc06095dd4edbba78055522b47be6c7.setContent(html_61a7187852c1b4215b772ed57847381a);
+            
+        
+
+        circle_marker_4285956797ac1857c98f16ea7af1d876.bindPopup(popup_cbc06095dd4edbba78055522b47be6c7)
+        ;
+
+        
+    
+    
+            circle_marker_4285956797ac1857c98f16ea7af1d876.bindTooltip(
+                `<div>
+                     Accidents: 239
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5a460c15ee031d6cebcdd3cfcd7e6618 = L.circleMarker(
+                [30.9843, -91.9623],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.11, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_c9cebc410e18acf367f66745ec852a1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7766916d02d9c1d8d864d3d8a110cdcc = $(`<div id="html_7766916d02d9c1d8d864d3d8a110cdcc" style="width: 100.0%; height: 100.0%;">LA: 211 accidents</div>`)[0];
+                popup_c9cebc410e18acf367f66745ec852a1e.setContent(html_7766916d02d9c1d8d864d3d8a110cdcc);
+            
+        
+
+        circle_marker_5a460c15ee031d6cebcdd3cfcd7e6618.bindPopup(popup_c9cebc410e18acf367f66745ec852a1e)
+        ;
+
+        
+    
+    
+            circle_marker_5a460c15ee031d6cebcdd3cfcd7e6618.bindTooltip(
+                `<div>
+                     Accidents: 211
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_20ad7c3a7cb1ad07a7a36e67e5435c1c = L.circleMarker(
+                [40.0583, -74.4057],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.95, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_d8409607ea176dc60c225c1e606f40da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b9895b6fd8cf74e4424e4a28dc0dd75 = $(`<div id="html_5b9895b6fd8cf74e4424e4a28dc0dd75" style="width: 100.0%; height: 100.0%;">NJ: 195 accidents</div>`)[0];
+                popup_d8409607ea176dc60c225c1e606f40da.setContent(html_5b9895b6fd8cf74e4424e4a28dc0dd75);
+            
+        
+
+        circle_marker_20ad7c3a7cb1ad07a7a36e67e5435c1c.bindPopup(popup_d8409607ea176dc60c225c1e606f40da)
+        ;
+
+        
+    
+    
+            circle_marker_20ad7c3a7cb1ad07a7a36e67e5435c1c.bindTooltip(
+                `<div>
+                     Accidents: 195
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d0531379905e3f39e988d823d8d467b5 = L.circleMarker(
+                [39.0458, -76.6413],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.94, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_f59eeb5a84ea49ae24cab7baadb22761 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9659b71acdf338d825f13b058b31ac0d = $(`<div id="html_9659b71acdf338d825f13b058b31ac0d" style="width: 100.0%; height: 100.0%;">MD: 194 accidents</div>`)[0];
+                popup_f59eeb5a84ea49ae24cab7baadb22761.setContent(html_9659b71acdf338d825f13b058b31ac0d);
+            
+        
+
+        circle_marker_d0531379905e3f39e988d823d8d467b5.bindPopup(popup_f59eeb5a84ea49ae24cab7baadb22761)
+        ;
+
+        
+    
+    
+            circle_marker_d0531379905e3f39e988d823d8d467b5.bindTooltip(
+                `<div>
+                     Accidents: 194
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3859db57bc1dfc2a21fe6d64ad2d73c5 = L.circleMarker(
+                [35.5175, -86.5804],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.94, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_58881dd5460c51f58d5700c89942b2a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_685fd7e282c74ece1557b21543c5de23 = $(`<div id="html_685fd7e282c74ece1557b21543c5de23" style="width: 100.0%; height: 100.0%;">TN: 194 accidents</div>`)[0];
+                popup_58881dd5460c51f58d5700c89942b2a4.setContent(html_685fd7e282c74ece1557b21543c5de23);
+            
+        
+
+        circle_marker_3859db57bc1dfc2a21fe6d64ad2d73c5.bindPopup(popup_58881dd5460c51f58d5700c89942b2a4)
+        ;
+
+        
+    
+    
+            circle_marker_3859db57bc1dfc2a21fe6d64ad2d73c5.bindTooltip(
+                `<div>
+                     Accidents: 194
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2bf06c064e97afa48954bd6ebd5d7469 = L.circleMarker(
+                [44.3148, -85.6024],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.65, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_c0b7ae42d3c0e8398cff8179ab8b0b98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a59fb5e04427d2dfdf3f0e6297724670 = $(`<div id="html_a59fb5e04427d2dfdf3f0e6297724670" style="width: 100.0%; height: 100.0%;">MI: 165 accidents</div>`)[0];
+                popup_c0b7ae42d3c0e8398cff8179ab8b0b98.setContent(html_a59fb5e04427d2dfdf3f0e6297724670);
+            
+        
+
+        circle_marker_2bf06c064e97afa48954bd6ebd5d7469.bindPopup(popup_c0b7ae42d3c0e8398cff8179ab8b0b98)
+        ;
+
+        
+    
+    
+            circle_marker_2bf06c064e97afa48954bd6ebd5d7469.bindTooltip(
+                `<div>
+                     Accidents: 165
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_292bed29f3955ea3ea0d9067bdbb34f9 = L.circleMarker(
+                [33.749, -84.388],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.379999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_8599766baaacb89bec63903274dd9d5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4b875d2a97e28bef423e21601928041 = $(`<div id="html_f4b875d2a97e28bef423e21601928041" style="width: 100.0%; height: 100.0%;">GA: 138 accidents</div>`)[0];
+                popup_8599766baaacb89bec63903274dd9d5b.setContent(html_f4b875d2a97e28bef423e21601928041);
+            
+        
+
+        circle_marker_292bed29f3955ea3ea0d9067bdbb34f9.bindPopup(popup_8599766baaacb89bec63903274dd9d5b)
+        ;
+
+        
+    
+    
+            circle_marker_292bed29f3955ea3ea0d9067bdbb34f9.bindTooltip(
+                `<div>
+                     Accidents: 138
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_00bccec2ca767e46f6de6d15bccbfad5 = L.circleMarker(
+                [40.1135, -111.8636],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.16, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_facd27b15644bf321e23993c8128de65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_290755b3579b62f162c35e4ba60f355d = $(`<div id="html_290755b3579b62f162c35e4ba60f355d" style="width: 100.0%; height: 100.0%;">UT: 116 accidents</div>`)[0];
+                popup_facd27b15644bf321e23993c8128de65.setContent(html_290755b3579b62f162c35e4ba60f355d);
+            
+        
+
+        circle_marker_00bccec2ca767e46f6de6d15bccbfad5.bindPopup(popup_facd27b15644bf321e23993c8128de65)
+        ;
+
+        
+    
+    
+            circle_marker_00bccec2ca767e46f6de6d15bccbfad5.bindTooltip(
+                `<div>
+                     Accidents: 116
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_621f01054f49bafec59f84325b900847 = L.circleMarker(
+                [40.6331, -89.3985],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.16, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_9c28ed9091da26e5273d7d75861b2a1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df19c5368872a9895b390fad06a7b22e = $(`<div id="html_df19c5368872a9895b390fad06a7b22e" style="width: 100.0%; height: 100.0%;">IL: 116 accidents</div>`)[0];
+                popup_9c28ed9091da26e5273d7d75861b2a1f.setContent(html_df19c5368872a9895b390fad06a7b22e);
+            
+        
+
+        circle_marker_621f01054f49bafec59f84325b900847.bindPopup(popup_9c28ed9091da26e5273d7d75861b2a1f)
+        ;
+
+        
+    
+    
+            circle_marker_621f01054f49bafec59f84325b900847.bindTooltip(
+                `<div>
+                     Accidents: 116
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_80768fd6d87733f690e57cde0a239711 = L.circleMarker(
+                [41.6032, -73.0877],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.129999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_8235d0101720c803f12b607a21c58591 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44e8a88dd4d6091ba503002e4368401a = $(`<div id="html_44e8a88dd4d6091ba503002e4368401a" style="width: 100.0%; height: 100.0%;">CT: 113 accidents</div>`)[0];
+                popup_8235d0101720c803f12b607a21c58591.setContent(html_44e8a88dd4d6091ba503002e4368401a);
+            
+        
+
+        circle_marker_80768fd6d87733f690e57cde0a239711.bindPopup(popup_8235d0101720c803f12b607a21c58591)
+        ;
+
+        
+    
+    
+            circle_marker_80768fd6d87733f690e57cde0a239711.bindTooltip(
+                `<div>
+                     Accidents: 113
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d09214f9fac8bb4db0d37ff2f26ee5da = L.circleMarker(
+                [47.7511, -120.7401],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.11, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_f9adcbfc604cc2904d6be5c38765abaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc5d0495cae48fa3fbc544ab704f2dd0 = $(`<div id="html_dc5d0495cae48fa3fbc544ab704f2dd0" style="width: 100.0%; height: 100.0%;">WA: 111 accidents</div>`)[0];
+                popup_f9adcbfc604cc2904d6be5c38765abaa.setContent(html_dc5d0495cae48fa3fbc544ab704f2dd0);
+            
+        
+
+        circle_marker_d09214f9fac8bb4db0d37ff2f26ee5da.bindPopup(popup_f9adcbfc604cc2904d6be5c38765abaa)
+        ;
+
+        
+    
+    
+            circle_marker_d09214f9fac8bb4db0d37ff2f26ee5da.bindTooltip(
+                `<div>
+                     Accidents: 111
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_26c36502d1de379e0e2b36a6763581dc = L.circleMarker(
+                [39.5501, -105.7821],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.1, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_fe37e472986caa7a1fc8988edb143b38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7a39cabc00e29146bd6ba4723d94c73 = $(`<div id="html_b7a39cabc00e29146bd6ba4723d94c73" style="width: 100.0%; height: 100.0%;">CO: 110 accidents</div>`)[0];
+                popup_fe37e472986caa7a1fc8988edb143b38.setContent(html_b7a39cabc00e29146bd6ba4723d94c73);
+            
+        
+
+        circle_marker_26c36502d1de379e0e2b36a6763581dc.bindPopup(popup_fe37e472986caa7a1fc8988edb143b38)
+        ;
+
+        
+    
+    
+            circle_marker_26c36502d1de379e0e2b36a6763581dc.bindTooltip(
+                `<div>
+                     Accidents: 110
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fef39dce9254c2722951b1146b6ef69c = L.circleMarker(
+                [32.8067, -86.7911],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.82, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_fdef72c7230b52995cb9384386cd59c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52c594340b38afc859c003fdcd479393 = $(`<div id="html_52c594340b38afc859c003fdcd479393" style="width: 100.0%; height: 100.0%;">AL: 82 accidents</div>`)[0];
+                popup_fdef72c7230b52995cb9384386cd59c9.setContent(html_52c594340b38afc859c003fdcd479393);
+            
+        
+
+        circle_marker_fef39dce9254c2722951b1146b6ef69c.bindPopup(popup_fdef72c7230b52995cb9384386cd59c9)
+        ;
+
+        
+    
+    
+            circle_marker_fef39dce9254c2722951b1146b6ef69c.bindTooltip(
+                `<div>
+                     Accidents: 82
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7aa76bae7c6fc3d4343c0a911721d6f8 = L.circleMarker(
+                [37.9643, -91.8318],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.81, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_4ff21401c005f28091ed872c293de04c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd12f1161f1172e1731846c2ec750a2b = $(`<div id="html_fd12f1161f1172e1731846c2ec750a2b" style="width: 100.0%; height: 100.0%;">MO: 81 accidents</div>`)[0];
+                popup_4ff21401c005f28091ed872c293de04c.setContent(html_fd12f1161f1172e1731846c2ec750a2b);
+            
+        
+
+        circle_marker_7aa76bae7c6fc3d4343c0a911721d6f8.bindPopup(popup_4ff21401c005f28091ed872c293de04c)
+        ;
+
+        
+    
+    
+            circle_marker_7aa76bae7c6fc3d4343c0a911721d6f8.bindTooltip(
+                `<div>
+                     Accidents: 81
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_601eb38b0bb2a5aba3f256f008b34d72 = L.circleMarker(
+                [40.4173, -82.9071],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.81, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_fc7e7d64b7a2a020d8ec0b6dd8137064 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11161d9c81a8bf6d1ccc042a5d0ea365 = $(`<div id="html_11161d9c81a8bf6d1ccc042a5d0ea365" style="width: 100.0%; height: 100.0%;">OH: 81 accidents</div>`)[0];
+                popup_fc7e7d64b7a2a020d8ec0b6dd8137064.setContent(html_11161d9c81a8bf6d1ccc042a5d0ea365);
+            
+        
+
+        circle_marker_601eb38b0bb2a5aba3f256f008b34d72.bindPopup(popup_fc7e7d64b7a2a020d8ec0b6dd8137064)
+        ;
+
+        
+    
+    
+            circle_marker_601eb38b0bb2a5aba3f256f008b34d72.bindTooltip(
+                `<div>
+                     Accidents: 81
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6a7084c040096e7115cb59ecb65767dd = L.circleMarker(
+                [46.8797, -110.3626],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.75, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_647463799b74d8829d30d9fc783df596 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f313df9f1e6e92581d2dcdc0dc3283c = $(`<div id="html_4f313df9f1e6e92581d2dcdc0dc3283c" style="width: 100.0%; height: 100.0%;">MT: 75 accidents</div>`)[0];
+                popup_647463799b74d8829d30d9fc783df596.setContent(html_4f313df9f1e6e92581d2dcdc0dc3283c);
+            
+        
+
+        circle_marker_6a7084c040096e7115cb59ecb65767dd.bindPopup(popup_647463799b74d8829d30d9fc783df596)
+        ;
+
+        
+    
+    
+            circle_marker_6a7084c040096e7115cb59ecb65767dd.bindTooltip(
+                `<div>
+                     Accidents: 75
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6fb326a1f4111ca98da8f449e00153a3 = L.circleMarker(
+                [40.267, -86.1349],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.64, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_98e98d821917d04a423255212f9e3c3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e35f74c9fe3d776877c3eebe359e4db = $(`<div id="html_8e35f74c9fe3d776877c3eebe359e4db" style="width: 100.0%; height: 100.0%;">IN: 64 accidents</div>`)[0];
+                popup_98e98d821917d04a423255212f9e3c3e.setContent(html_8e35f74c9fe3d776877c3eebe359e4db);
+            
+        
+
+        circle_marker_6fb326a1f4111ca98da8f449e00153a3.bindPopup(popup_98e98d821917d04a423255212f9e3c3e)
+        ;
+
+        
+    
+    
+            circle_marker_6fb326a1f4111ca98da8f449e00153a3.bindTooltip(
+                `<div>
+                     Accidents: 64
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_af12179813e3e6b117bfb0404cf1d084 = L.circleMarker(
+                [34.7465, -92.2896],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.61, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_b1fbca98189d8ce8d4b1ba218ed58d1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89f92fc662f36d3b40af22079b654528 = $(`<div id="html_89f92fc662f36d3b40af22079b654528" style="width: 100.0%; height: 100.0%;">AR: 61 accidents</div>`)[0];
+                popup_b1fbca98189d8ce8d4b1ba218ed58d1c.setContent(html_89f92fc662f36d3b40af22079b654528);
+            
+        
+
+        circle_marker_af12179813e3e6b117bfb0404cf1d084.bindPopup(popup_b1fbca98189d8ce8d4b1ba218ed58d1c)
+        ;
+
+        
+    
+    
+            circle_marker_af12179813e3e6b117bfb0404cf1d084.bindTooltip(
+                `<div>
+                     Accidents: 61
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_97cc20329c08d99087639d5c497886fb = L.circleMarker(
+                [38.9072, -77.0369],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.44, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_e89ec6e98bb00c841b82223f669dc3f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3ae3ff165d1e64863f2104d437d244a = $(`<div id="html_b3ae3ff165d1e64863f2104d437d244a" style="width: 100.0%; height: 100.0%;">DC: 44 accidents</div>`)[0];
+                popup_e89ec6e98bb00c841b82223f669dc3f0.setContent(html_b3ae3ff165d1e64863f2104d437d244a);
+            
+        
+
+        circle_marker_97cc20329c08d99087639d5c497886fb.bindPopup(popup_e89ec6e98bb00c841b82223f669dc3f0)
+        ;
+
+        
+    
+    
+            circle_marker_97cc20329c08d99087639d5c497886fb.bindTooltip(
+                `<div>
+                     Accidents: 44
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_33f2a45065c82ab0c304f2a251b5d299 = L.circleMarker(
+                [41.878, -93.0977],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.38, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_1a84612d9c651a09bfe126beb30e3bee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdae42879f2940edc2be959b8ec4cadc = $(`<div id="html_bdae42879f2940edc2be959b8ec4cadc" style="width: 100.0%; height: 100.0%;">IA: 38 accidents</div>`)[0];
+                popup_1a84612d9c651a09bfe126beb30e3bee.setContent(html_bdae42879f2940edc2be959b8ec4cadc);
+            
+        
+
+        circle_marker_33f2a45065c82ab0c304f2a251b5d299.bindPopup(popup_1a84612d9c651a09bfe126beb30e3bee)
+        ;
+
+        
+    
+    
+            circle_marker_33f2a45065c82ab0c304f2a251b5d299.bindTooltip(
+                `<div>
+                     Accidents: 38
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b3b9acf6bc3cdb3d77123f83fb56a7fb = L.circleMarker(
+                [44.0682, -114.742],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.36, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_13f7fb4ebf371f3a899187e9387bdbd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06892767e5ccf11dafd8ea0796801087 = $(`<div id="html_06892767e5ccf11dafd8ea0796801087" style="width: 100.0%; height: 100.0%;">ID: 36 accidents</div>`)[0];
+                popup_13f7fb4ebf371f3a899187e9387bdbd5.setContent(html_06892767e5ccf11dafd8ea0796801087);
+            
+        
+
+        circle_marker_b3b9acf6bc3cdb3d77123f83fb56a7fb.bindPopup(popup_13f7fb4ebf371f3a899187e9387bdbd5)
+        ;
+
+        
+    
+    
+            circle_marker_b3b9acf6bc3cdb3d77123f83fb56a7fb.bindTooltip(
+                `<div>
+                     Accidents: 36
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_201bf3d898efa7073ac5ddac66ec698e = L.circleMarker(
+                [38.5976, -80.4549],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.36, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_9df7f6a40b89a55ed07223f8d322f2ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5147b641bbf593af20186d51387689fa = $(`<div id="html_5147b641bbf593af20186d51387689fa" style="width: 100.0%; height: 100.0%;">WV: 36 accidents</div>`)[0];
+                popup_9df7f6a40b89a55ed07223f8d322f2ba.setContent(html_5147b641bbf593af20186d51387689fa);
+            
+        
+
+        circle_marker_201bf3d898efa7073ac5ddac66ec698e.bindPopup(popup_9df7f6a40b89a55ed07223f8d322f2ba)
+        ;
+
+        
+    
+    
+            circle_marker_201bf3d898efa7073ac5ddac66ec698e.bindTooltip(
+                `<div>
+                     Accidents: 36
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0630d56b2aba82d70ab7435ba7f7807d = L.circleMarker(
+                [35.4676, -97.5164],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.33, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_be9a44c5c41a401bb6330706cacd4852 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a953abeccf16a5dd034d47ca4fee6ae8 = $(`<div id="html_a953abeccf16a5dd034d47ca4fee6ae8" style="width: 100.0%; height: 100.0%;">OK: 33 accidents</div>`)[0];
+                popup_be9a44c5c41a401bb6330706cacd4852.setContent(html_a953abeccf16a5dd034d47ca4fee6ae8);
+            
+        
+
+        circle_marker_0630d56b2aba82d70ab7435ba7f7807d.bindPopup(popup_be9a44c5c41a401bb6330706cacd4852)
+        ;
+
+        
+    
+    
+            circle_marker_0630d56b2aba82d70ab7435ba7f7807d.bindTooltip(
+                `<div>
+                     Accidents: 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d1d058432191cd32178794c15662a89b = L.circleMarker(
+                [39.0119, -98.4842],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.25, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_db1fd7f2ba7d3c27cd0d33c0d0db2f47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c6c444bc9a0c34a575543ddc0ff819d = $(`<div id="html_7c6c444bc9a0c34a575543ddc0ff819d" style="width: 100.0%; height: 100.0%;">KS: 25 accidents</div>`)[0];
+                popup_db1fd7f2ba7d3c27cd0d33c0d0db2f47.setContent(html_7c6c444bc9a0c34a575543ddc0ff819d);
+            
+        
+
+        circle_marker_d1d058432191cd32178794c15662a89b.bindPopup(popup_db1fd7f2ba7d3c27cd0d33c0d0db2f47)
+        ;
+
+        
+    
+    
+            circle_marker_d1d058432191cd32178794c15662a89b.bindTooltip(
+                `<div>
+                     Accidents: 25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_18f81852758fa449dce916185a275c8a = L.circleMarker(
+                [32.3547, -89.3985],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.24, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_ce96671bc0acb3089ae3ea98a7fdbf2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_081489e3df8431e69f4e8cf440b9f7d7 = $(`<div id="html_081489e3df8431e69f4e8cf440b9f7d7" style="width: 100.0%; height: 100.0%;">MS: 24 accidents</div>`)[0];
+                popup_ce96671bc0acb3089ae3ea98a7fdbf2e.setContent(html_081489e3df8431e69f4e8cf440b9f7d7);
+            
+        
+
+        circle_marker_18f81852758fa449dce916185a275c8a.bindPopup(popup_ce96671bc0acb3089ae3ea98a7fdbf2e)
+        ;
+
+        
+    
+    
+            circle_marker_18f81852758fa449dce916185a275c8a.bindTooltip(
+                `<div>
+                     Accidents: 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5f46b54e2a48e0dd49b8c3d8d076b9c4 = L.circleMarker(
+                [43.7844, -88.7879],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.21, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_b6e12999f07dbdc106cdeef4f6e4de47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d572dc02cd7afc03a4727b2ee4201768 = $(`<div id="html_d572dc02cd7afc03a4727b2ee4201768" style="width: 100.0%; height: 100.0%;">WI: 21 accidents</div>`)[0];
+                popup_b6e12999f07dbdc106cdeef4f6e4de47.setContent(html_d572dc02cd7afc03a4727b2ee4201768);
+            
+        
+
+        circle_marker_5f46b54e2a48e0dd49b8c3d8d076b9c4.bindPopup(popup_b6e12999f07dbdc106cdeef4f6e4de47)
+        ;
+
+        
+    
+    
+            circle_marker_5f46b54e2a48e0dd49b8c3d8d076b9c4.bindTooltip(
+                `<div>
+                     Accidents: 21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9570b6b7bd88e1d0c6595f422dd0cfa7 = L.circleMarker(
+                [42.4072, -71.3824],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.21, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_35784c609a30cce4496c45b445e2ebb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27328b6433926195a2ca670aa7b4249c = $(`<div id="html_27328b6433926195a2ca670aa7b4249c" style="width: 100.0%; height: 100.0%;">MA: 21 accidents</div>`)[0];
+                popup_35784c609a30cce4496c45b445e2ebb5.setContent(html_27328b6433926195a2ca670aa7b4249c);
+            
+        
+
+        circle_marker_9570b6b7bd88e1d0c6595f422dd0cfa7.bindPopup(popup_35784c609a30cce4496c45b445e2ebb5)
+        ;
+
+        
+    
+    
+            circle_marker_9570b6b7bd88e1d0c6595f422dd0cfa7.bindTooltip(
+                `<div>
+                     Accidents: 21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_13d090984268cebdc845c5830b0120e8 = L.circleMarker(
+                [38.9108, -75.5277],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.17, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_1cde5e59e973e45715699516f67f852b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a93439144f2c9a9059c9c4db2402ab14 = $(`<div id="html_a93439144f2c9a9059c9c4db2402ab14" style="width: 100.0%; height: 100.0%;">DE: 17 accidents</div>`)[0];
+                popup_1cde5e59e973e45715699516f67f852b.setContent(html_a93439144f2c9a9059c9c4db2402ab14);
+            
+        
+
+        circle_marker_13d090984268cebdc845c5830b0120e8.bindPopup(popup_1cde5e59e973e45715699516f67f852b)
+        ;
+
+        
+    
+    
+            circle_marker_13d090984268cebdc845c5830b0120e8.bindTooltip(
+                `<div>
+                     Accidents: 17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4346a0ee541c6107864ec5e4ca3198f1 = L.circleMarker(
+                [38.8026, -116.4194],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.17, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_20693f2af5ff08e6d5ed74309bd5d714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01f52174dfbbdc3bbb030f2b5eca5b2b = $(`<div id="html_01f52174dfbbdc3bbb030f2b5eca5b2b" style="width: 100.0%; height: 100.0%;">NV: 17 accidents</div>`)[0];
+                popup_20693f2af5ff08e6d5ed74309bd5d714.setContent(html_01f52174dfbbdc3bbb030f2b5eca5b2b);
+            
+        
+
+        circle_marker_4346a0ee541c6107864ec5e4ca3198f1.bindPopup(popup_20693f2af5ff08e6d5ed74309bd5d714)
+        ;
+
+        
+    
+    
+            circle_marker_4346a0ee541c6107864ec5e4ca3198f1.bindTooltip(
+                `<div>
+                     Accidents: 17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1576f27de1aae71e644958e763c1ae7e = L.circleMarker(
+                [37.8393, -84.27],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.11, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_44abc703e0ba508f0412def6f86cd361 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3bbbf970cea2ef237cb1c677bd22e71 = $(`<div id="html_c3bbbf970cea2ef237cb1c677bd22e71" style="width: 100.0%; height: 100.0%;">KY: 11 accidents</div>`)[0];
+                popup_44abc703e0ba508f0412def6f86cd361.setContent(html_c3bbbf970cea2ef237cb1c677bd22e71);
+            
+        
+
+        circle_marker_1576f27de1aae71e644958e763c1ae7e.bindPopup(popup_44abc703e0ba508f0412def6f86cd361)
+        ;
+
+        
+    
+    
+            circle_marker_1576f27de1aae71e644958e763c1ae7e.bindTooltip(
+                `<div>
+                     Accidents: 11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_03e8a15bfd3ca2c7faee1f36259e3a01 = L.circleMarker(
+                [41.1254, -98.2681],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.1, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_7aefdb87d3e88a0aa655e7b543cbc0c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_294f7a7917b98d0674abc47ee50ce49a = $(`<div id="html_294f7a7917b98d0674abc47ee50ce49a" style="width: 100.0%; height: 100.0%;">NE: 10 accidents</div>`)[0];
+                popup_7aefdb87d3e88a0aa655e7b543cbc0c9.setContent(html_294f7a7917b98d0674abc47ee50ce49a);
+            
+        
+
+        circle_marker_03e8a15bfd3ca2c7faee1f36259e3a01.bindPopup(popup_7aefdb87d3e88a0aa655e7b543cbc0c9)
+        ;
+
+        
+    
+    
+            circle_marker_03e8a15bfd3ca2c7faee1f36259e3a01.bindTooltip(
+                `<div>
+                     Accidents: 10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9394fe73faaaf79832ac311d7d06959a = L.circleMarker(
+                [43.0759, -107.2903],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.07, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_d8d056fcea9357a498bd752987427955 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_059f1a33c3e35556ddfc347d29b1e45c = $(`<div id="html_059f1a33c3e35556ddfc347d29b1e45c" style="width: 100.0%; height: 100.0%;">WY: 7 accidents</div>`)[0];
+                popup_d8d056fcea9357a498bd752987427955.setContent(html_059f1a33c3e35556ddfc347d29b1e45c);
+            
+        
+
+        circle_marker_9394fe73faaaf79832ac311d7d06959a.bindPopup(popup_d8d056fcea9357a498bd752987427955)
+        ;
+
+        
+    
+    
+            circle_marker_9394fe73faaaf79832ac311d7d06959a.bindTooltip(
+                `<div>
+                     Accidents: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c038fbe072ae951975cd565d4a7bdd25 = L.circleMarker(
+                [47.5515, -101.002],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.07, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_c74f901159b93f8d1b21d004eb167e9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd5e6cf1f41bd361df294f4eeaa2415a = $(`<div id="html_fd5e6cf1f41bd361df294f4eeaa2415a" style="width: 100.0%; height: 100.0%;">ND: 7 accidents</div>`)[0];
+                popup_c74f901159b93f8d1b21d004eb167e9f.setContent(html_fd5e6cf1f41bd361df294f4eeaa2415a);
+            
+        
+
+        circle_marker_c038fbe072ae951975cd565d4a7bdd25.bindPopup(popup_c74f901159b93f8d1b21d004eb167e9f)
+        ;
+
+        
+    
+    
+            circle_marker_c038fbe072ae951975cd565d4a7bdd25.bindTooltip(
+                `<div>
+                     Accidents: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_98a427286255e002eb90adaf0652fc31 = L.circleMarker(
+                [44.2998, -69.4495],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_3d2d1812a29c3026f91a8a48f1e764ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_182b4dc12bcd84170de948e99d1cdd4c = $(`<div id="html_182b4dc12bcd84170de948e99d1cdd4c" style="width: 100.0%; height: 100.0%;">ME: 5 accidents</div>`)[0];
+                popup_3d2d1812a29c3026f91a8a48f1e764ca.setContent(html_182b4dc12bcd84170de948e99d1cdd4c);
+            
+        
+
+        circle_marker_98a427286255e002eb90adaf0652fc31.bindPopup(popup_3d2d1812a29c3026f91a8a48f1e764ca)
+        ;
+
+        
+    
+    
+            circle_marker_98a427286255e002eb90adaf0652fc31.bindTooltip(
+                `<div>
+                     Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cefc8090e6b2fc84d7d82fdb3ed37a10 = L.circleMarker(
+                [41.6809, -71.5118],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_97ee166ed5d850ac1d59eff1d59c42d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0824eb4c6acb7dfa4c46ccd4befc082 = $(`<div id="html_f0824eb4c6acb7dfa4c46ccd4befc082" style="width: 100.0%; height: 100.0%;">RI: 5 accidents</div>`)[0];
+                popup_97ee166ed5d850ac1d59eff1d59c42d7.setContent(html_f0824eb4c6acb7dfa4c46ccd4befc082);
+            
+        
+
+        circle_marker_cefc8090e6b2fc84d7d82fdb3ed37a10.bindPopup(popup_97ee166ed5d850ac1d59eff1d59c42d7)
+        ;
+
+        
+    
+    
+            circle_marker_cefc8090e6b2fc84d7d82fdb3ed37a10.bindTooltip(
+                `<div>
+                     Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3a67321ed534e38cde0060b7621c2aaa = L.circleMarker(
+                [34.5199, -105.8701],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_9e0efc58b4873d7e3490283ae55f7f83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a89cd1a05add19022a32de79f050e95 = $(`<div id="html_5a89cd1a05add19022a32de79f050e95" style="width: 100.0%; height: 100.0%;">NM: 5 accidents</div>`)[0];
+                popup_9e0efc58b4873d7e3490283ae55f7f83.setContent(html_5a89cd1a05add19022a32de79f050e95);
+            
+        
+
+        circle_marker_3a67321ed534e38cde0060b7621c2aaa.bindPopup(popup_9e0efc58b4873d7e3490283ae55f7f83)
+        ;
+
+        
+    
+    
+            circle_marker_3a67321ed534e38cde0060b7621c2aaa.bindTooltip(
+                `<div>
+                     Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_001c6986d6032bd5bf5ed221041442cb = L.circleMarker(
+                [43.1939, -71.5724],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.03, "stroke": true, "weight": 3}
+            ).addTo(map_9faa829d90a923bedae84cef774ad6a8);
+        
+    
+        var popup_19f3a3e88ed677cd2daa9c8475c2f1b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44cb204ad56dec1938a934283e26f265 = $(`<div id="html_44cb204ad56dec1938a934283e26f265" style="width: 100.0%; height: 100.0%;">NH: 3 accidents</div>`)[0];
+                popup_19f3a3e88ed677cd2daa9c8475c2f1b5.setContent(html_44cb204ad56dec1938a934283e26f265);
+            
+        
+
+        circle_marker_001c6986d6032bd5bf5ed221041442cb.bindPopup(popup_19f3a3e88ed677cd2daa9c8475c2f1b5)
+        ;
+
+        
+    
+    
+            circle_marker_001c6986d6032bd5bf5ed221041442cb.bindTooltip(
+                `<div>
+                     Accidents: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
