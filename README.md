@@ -40,9 +40,9 @@ The cleaned dataset is saved at: C:\Users\vange\Desktop\github project\cleaned_a
 6. Team Members
 This project was a collaborative effort by the following team members:
 
-    Georgios Birmpakos
-    Vasileios Katsikas
-    Evangelos Diaskoufis
+  o  Georgios Birmpakos
+  o  Vasileios Katsikas
+  o Evangelos Diaskoufis
    
 8. Questionnaire Highlights
 The questionnaire aims to explore and analyze various aspects of car accidents across the dataset. Below are a few key details:
