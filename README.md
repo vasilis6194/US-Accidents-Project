@@ -1,4 +1,4 @@
-# **Car Accidents Insights**
+# **US Accidents Insights**
 ### Based on Kaggle's *"US Accidents (2016 - 2023)"* Dataset
 
 ![Motorcycle Accident](https://gutierrezinjury.attorney/wp-content/uploads/2021/01/motorcycle-accidents_lg-1gggg.jpg)
