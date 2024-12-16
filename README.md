@@ -66,10 +66,10 @@ This step ensures accurate handling of **date and time values** for trend analys
 ### 5️⃣ **Exporting the Cleaned Sample**
 The cleaned dataset was saved for further use:
 ```python
-output_path = r"C:\Users\vange\Desktop\github project\cleaned_accidents.csv"
+output_path = r"C:\Users\Vasilis\Desktop\Github\Project US Accidents\US-Accidents-Project\2. Data\cleaned_accidents.csv"
 cleaned_accidents.to_csv(output_path, index=False)
 ```
-- The cleaned file is saved at: **`C:\Users\vange\Desktop\github project\cleaned_accidents.csv`**
+- The cleaned file is saved at: **`r"C:\Users\Vasilis\Desktop\Github\Project US Accidents\US-Accidents-Project\2. Data\cleaned_accidents.csv"`**
 
 ---
 
